@@ -1,5 +1,5 @@
 import { redirectIfLoggedIn, signInUser, signupUser } from './fetch-utils.js';
-
+const tea = document.getElementById('tea-cups');
 const signInForm = document.getElementById('sign-in');
 const signInEmail = document.getElementById('sign-in-email');
 const signInPassword = document.getElementById('sign-in-password');
