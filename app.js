@@ -1,8 +1,8 @@
 import { redirectIfLoggedIn, signInUser, signupUser } from './fetch-utils.js';
 const rainbow = 'this is a rainbow';
-if (rainbow) console.log('pot o gold');
+if (!rainbow) console.log('sadness');
 
-const tea = document.getElementById('tea-cups');
+// const tea = document.getElementById('tea-cups');
 const signInForm = document.getElementById('sign-in');
 const signInEmail = document.getElementById('sign-in-email');
 const signInPassword = document.getElementById('sign-in-password');
